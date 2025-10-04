@@ -30,6 +30,7 @@ static struct apk_sign_key {
 	const char *sha256;
 } apk_sign_keys[] = {
 	{EXPECTED_SIZE_SHIRKNEKO, EXPECTED_HASH_SHIRKNEKO}, // SukiSU
+	{EXPECTED_SIZE_SPOOF, EXPECTED_HASH_SPOOF}, // Spoofed Package
 	{EXPECTED_SIZE_OTHER, EXPECTED_HASH_OTHER}, // Dynamic Sign
 #ifdef CONFIG_KSU_MULTI_MANAGER_SUPPORT
     {EXPECTED_SIZE_WEISHU, EXPECTED_HASH_WEISHU}, // Official
